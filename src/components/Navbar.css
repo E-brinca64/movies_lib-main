@@ -1,0 +1,59 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000814;
+  box-shadow: 0px 1rem 0.6rem #000830;
+  height: 6rem;
+}
+
+#navbar h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#navbar input {
+  border: none;
+  background-color: #ffc300;
+  margin-right: -2rem;
+  margin-left: 0rem;
+  text-decoration: underline; 
+}
+.pesquisa{
+  padding: 0.8rem;
+  border-radius: 1.375rem;
+  background-color: #ffc300;
+  margin-right: 2rem;
+  margin-left: 3rem; 
+}
+.textos{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-size: 1rem;
+}
+.Soon{
+  margin-left: 2rem;
+}
+.lupa{
+  color: #2c2c2c;
+  display: flex;
+  align-items: center;
+}
+.Usuario{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.canto{
+  display: flex;
+  align-items: center;
+}
